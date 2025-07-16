@@ -3,7 +3,7 @@
 # Description: Interactive Python program to determine a user's VARK learning style.
 
 class InvalidChoiceException(Exception):
-    """Exception raised for an invalid answer choice (not A/B/C/D)."""
+    """Exception raised for an invalid answer choice (not a/b/c/d)."""
     pass
 
 class DuplicateAnswerException(Exception):
